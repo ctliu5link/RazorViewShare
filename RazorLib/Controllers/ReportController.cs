@@ -6,11 +6,11 @@ using System.Web.Mvc;
 
 namespace RazorLib.Controllers
 {
-    public class HomeController : Controller
+    public class ReportController : Controller
     {
         public ActionResult Index()
         {
-            ViewBag.Title = "Home Page";
+            ViewBag.Title = "Report Page";
 
             return View();
         }

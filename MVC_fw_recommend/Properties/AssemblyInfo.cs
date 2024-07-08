@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 組件一般資訊會透過下列
 // 控制。變更這些屬性值可修改與組件關聯的
 // 資訊。
-[assembly: AssemblyTitle("RazorLibApi")]
+[assembly: AssemblyTitle("MVC_fw_recommend")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("RazorLibApi")]
+[assembly: AssemblyProduct("MVC_fw_recommend")]
 [assembly: AssemblyCopyright("Copyright (C)  2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 下列 GUID 為專案公開 (Expose) 至 COM 時所要使用的 typelib ID
-[assembly: Guid("44e2ea4c-9f1a-4692-bc42-802331123070")]
+[assembly: Guid("9618e1ef-97d5-419f-95f3-5ce96f221a22")]
 
 // 組件的版本資訊是由下列四項值構成:
 //

@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace RazorLibApi
+namespace MVC_fw_recommend
 {
     public class FilterConfig
     {

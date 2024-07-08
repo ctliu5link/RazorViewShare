@@ -7,7 +7,7 @@ namespace MVC_fw.Controllers
     {
         public ActionResult Index()
         {
-            string reportContent = ViewRenderer.RenderViewToString(ControllerContext, "TempReport", true, null);
+            string reportContent = ViewRenderer.RenderViewToString(ControllerContext, "CloneReport", true, null);
             ViewBag.Message = reportContent;
             return View();
         }

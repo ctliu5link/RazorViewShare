@@ -5,7 +5,7 @@
   </PropertyGroup>
 	
   <ItemGroup>
-    <Content Include="Views\Report\TempReport.cshtml">
+    <Content Include="Views\Report\CloneReport.cshtml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

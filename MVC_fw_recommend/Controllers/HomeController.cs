@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using MVC_fw_recommend.Models;
 using System.Web.Mvc;
 
 namespace MVC_fw_recommend.Controllers
@@ -10,6 +7,8 @@ namespace MVC_fw_recommend.Controllers
     {
         public ActionResult Index()
         {
+            string reportContent = ViewRenderer.RenderViewToString(ControllerContext, "LinkedReport", true, null);
+            ViewBag.Message = reportContent;
             return View();
         }
 

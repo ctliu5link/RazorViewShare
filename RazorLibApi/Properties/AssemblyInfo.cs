@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 組件一般資訊會透過下列
 // 控制。變更這些屬性值可修改與組件關聯的
 // 資訊。
-[assembly: AssemblyTitle("RazorLib")]
+[assembly: AssemblyTitle("RazorLibApi")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("RazorLib")]
+[assembly: AssemblyProduct("RazorLibApi")]
 [assembly: AssemblyCopyright("Copyright (C)  2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

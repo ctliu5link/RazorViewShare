@@ -9,6 +9,8 @@ namespace MVC_fw_recommend.Controllers
         {
             string reportContent = ViewRenderer.RenderViewToString(ControllerContext, "LinkedReport", true, null);
             ViewBag.Message = reportContent;
+            string reportContent2 = ViewRenderer.RenderViewToString(GenericController.CreateController<ReportController>().ControllerContext, "LinkedReportWithoutController", true, null);
+            ViewBag.Message2 = reportContent2;
             return View();
         }
 

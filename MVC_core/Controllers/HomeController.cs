@@ -7,14 +7,17 @@ namespace MVC_core.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IServiceProvider _serviceProvider;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IServiceProvider serviceProvider)
         {
             _logger = logger;
+            _serviceProvider = serviceProvider;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
+            string str = await ViewRenderer.RenderViewToStringAsync(serviceProvider: _serviceProvider, isPartialView: true, viewName: "Error", model: new ErrorViewModel());
             return View();
         }
 
